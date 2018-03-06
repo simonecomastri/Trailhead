@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="C:\Users\comastrisi\IdeaProjects\Trailhead-Super-Badges\Trailhead" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/build/solenopsis" vcs="Git" />
   </component>
 </project>
