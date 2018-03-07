@@ -13,7 +13,7 @@ solenopsis.ENVIRONMENTS=local $SOL_SANDBOXNAME
 solenopsis.env.HOME=$SOL_HOMEDIR
 solenopsis.env.MASTER=local
 solenopsis.env.DEPENDENT=$SOL_SANDBOXNAME
-solenopsis.env.local.HOME=$SRC_DIR
+solenopsis.env.local.HOME= Trailhead/src
 sf.antFile=$TRAVIS_BUILD_DIR/build/ant/ant-salesforce.jar
 EOF
 
