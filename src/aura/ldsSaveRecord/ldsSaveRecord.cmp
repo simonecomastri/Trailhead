@@ -13,6 +13,7 @@
                       targetError="{!v.recordError}"
                       targetRecord="{!v.record}"
                       targetFields ="{!v.simpleRecord}"
+                      recordUpdated="{!c.recordUpdated}"
                       mode="EDIT" />
 
     <!-- Display a lightning card with details about the record -->
