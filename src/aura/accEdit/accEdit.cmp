@@ -20,6 +20,7 @@
                           mode="EDIT"/>
         <!-- Display a lightning card with details about the record -->
         <div class="Record Details">
+        BANANA
             <lightning:input label="Account Name" value="{!v.accountRecord.Name}"/>
             <lightning:button label="Save Account" variant="brand" onclick="{!c.handleSaveRecord}"/>
         </div>
