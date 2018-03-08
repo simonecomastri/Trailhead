@@ -1,28 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
+        <members>Document</members>
+        <members>PushTopic</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
+        <members>ContactHobby__c</members>
+        <members>standard-Account</members>
+        <members>standard-AppLauncher</members>
+        <members>standard-Asset</members>
+        <members>standard-Campaign</members>
+        <members>standard-Case</members>
+        <members>standard-Chatter</members>
+        <members>standard-CollaborationGroup</members>
+        <members>standard-Console</members>
+        <members>standard-Contact</members>
+        <members>standard-ContentContribute</members>
+        <members>standard-ContentSearch</members>
+        <members>standard-ContentSubscriptions</members>
+        <members>standard-Contract</members>
+        <members>standard-DandBCompany</members>
+        <members>standard-Dashboard</members>
+        <members>standard-Document</members>
+        <members>standard-DuplicateRecordSet</members>
+        <members>standard-File</members>
+        <members>standard-Forecasting3</members>
+        <members>standard-Idea</members>
+        <members>standard-JigsawSearch</members>
+        <members>standard-Lead</members>
+        <members>standard-ListEmail</members>
+        <members>standard-Macro</members>
+        <members>standard-Opportunity</members>
+        <members>standard-Order</members>
+        <members>standard-OtherUserProfile</members>
+        <members>standard-Pricebook2</members>
+        <members>standard-Product2</members>
+        <members>standard-ProfilePlatformFeed</members>
+        <members>standard-ProfilePlatformOverview</members>
+        <members>standard-Sites</members>
+        <members>standard-Solution</members>
+        <members>standard-StreamingChannel</members>
+        <members>standard-UserProfile</members>
+        <members>standard-UserProvisioningRequest</members>
+        <members>standard-Workspace</members>
+        <members>standard-home</members>
+        <members>standard-report</members>
+        <members>th_con_app__Welcome</members>
+        <name>CustomTab</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
+        <members>Executive_Dashboards</members>
+        <members>Executive_Dashboards/Marketing_Manager</members>
+        <members>Executive_Dashboards/Sales_Manager</members>
+        <members>Executive_Dashboards/Sales_Manager1</members>
+        <members>General_Dashboards</members>
+        <members>General_Dashboards/Sales_Reps</members>
+        <name>Dashboard</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
+        <members>unfiled$public</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
     </types>
     <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
+        <members>Executive_Reports</members>
+        <members>Executive_Reports/Account_Value</members>
+        <members>Executive_Reports/Closed_Opps_number_and_amount_by_month</members>
+        <members>Executive_Reports/Opportunities_by_Closed_Month_and_Type</members>
+        <members>Executive_Reports/Opportunity_pipeline</members>
+        <members>General_Reports</members>
+        <members>General_Reports/Contacts_Without_Hobbies_2</members>
+        <members>General_Reports/Contacts_by_Hobby</members>
+        <members>General_Reports/Contacts_by_Hobby_and_Rating</members>
+        <members>General_Reports/Lightning_Hobbies_by_Contact</members>
+        <name>Report</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>AccountContactMultiRoles</members>
+        <members>AccountContactRole</members>
+        <members>AccountOwnership</members>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>AssetStatus</members>
+        <members>CampaignMemberStatus</members>
+        <members>CampaignStatus</members>
+        <members>CampaignType</members>
+        <members>CaseContactRole</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <members>ContactRole</members>
+        <members>ContractContactRole</members>
+        <members>ContractStatus</members>
+        <members>EntitlementType</members>
+        <members>EventSubject</members>
+        <members>EventType</members>
+        <members>FiscalYearPeriodName</members>
+        <members>FiscalYearPeriodPrefix</members>
+        <members>FiscalYearQuarterName</members>
+        <members>FiscalYearQuarterPrefix</members>
+        <members>IdeaMultiCategory</members>
+        <members>IdeaStatus</members>
+        <members>IdeaThemeStatus</members>
+        <members>Industry</members>
+        <members>LeadSource</members>
+        <members>LeadStatus</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityStage</members>
+        <members>OpportunityType</members>
+        <members>OrderType</members>
+        <members>PartnerRole</members>
+        <members>Product2Family</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
+        <members>QuoteStatus</members>
+        <members>RoleInTerritory2</members>
+        <members>SalesTeamRole</members>
+        <members>Salutation</members>
+        <members>ServiceContractApprovalStatus</members>
+        <members>SocialPostClassification</members>
+        <members>SocialPostEngagementLevel</members>
+        <members>SocialPostReviewedStatus</members>
+        <members>SolutionStatus</members>
+        <members>TaskPriority</members>
+        <members>TaskStatus</members>
+        <members>TaskSubject</members>
+        <members>TaskType</members>
+        <members>WorkOrderLineItemStatus</members>
+        <members>WorkOrderPriority</members>
+        <members>WorkOrderStatus</members>
+        <name>StandardValueSet</name>
     </types>
     <version>42.0</version>
 </Package>
