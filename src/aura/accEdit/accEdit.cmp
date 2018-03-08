@@ -8,18 +8,24 @@
                         description="The record object to be displayed"/>
         <aura:attribute name="simpleRecord" type="Object"
                         description="A simplified view record object to be displayed"/>
-        <aura:attribute name="recordError" type="String"
+        <aura:attribute name="recordSaveError" type="String"
                         description="An error message bound to force:recordData"/>
 
         <force:recordData aura:id="accountRecord"
                           layoutType="FULL"
                           recordId="{!v.recordId}"
-                          targetError="{!v.recordError}"
+                          targetError="{!v.recordSaveError}"
                           targetRecord="{!v.accountRecord}"
                           targetFields ="{!v.accountRecord}"
                           mode="EDIT"/>
         <!-- Display a lightning card with details about the record -->
         <div class="Record Details">
+            <!-- Display Lightning Data Service errors, if any -->
+            <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+                <br />
+                Error: <ui:outputText value="{!v.recordSaveError}"/>
+            </aura:if>
+
             <lightning:input label="Account Name" value="{!v.accountRecord.Name}"/>
             <lightning:button label="Save Account" variant="brand" onclick="{!c.handleSaveRecord}"/>
         </div>
