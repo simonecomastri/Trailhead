@@ -9,8 +9,8 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Classes</name>
+        <members>TestApexClassOne</members>
+        <name>ApexClass</name>
     </types>
     <version>42.0</version>
 </Package>
