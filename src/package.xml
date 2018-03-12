@@ -9,7 +9,7 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>TestApexClassOne</members>
+        <members>AccountHandler</members>
         <name>ApexClass</name>
     </types>
     <version>42.0</version>
