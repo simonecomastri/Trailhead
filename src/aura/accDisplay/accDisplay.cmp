@@ -1,10 +1,6 @@
 <!--
  - Created by ComastriSi on 07/03/2018.
  -->
-
-<!--
- - Created by ComastriSi on 07/03/2018.
- -->
 <aura:component description="accDisplay" implements="flexipage:availableForRecordHome, force:hasRecordId"> <!--inherit recordId attribute-->
 
     <aura:attribute name="accountRecord" type="Object"
